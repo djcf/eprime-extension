@@ -5,7 +5,7 @@ E-Prime Assistant
 The verb to 'be' and all related forms and inflections can be considered problematic from many perspectives including logical and analytic philosophy, the epistemological sciences and even psychology and therapy. A subset of the English language known as E' attempts to remove these logical contradictions and errors in order to encourage freer and clearer thought and communication. This Chromium browser extension highlights such forms in user submitted texts as if they were errors.
 
 # Known Issues
-This extension is ALPHA SOFTWARE. It DOES NOT WORK with iframe-based rich text editors. Critiques and further comment from the open-source community would be appreciated at this juncture especially about the iframe-based edit more editors. A fuller description of the problem is here: http://stackoverflow.com/questions/23858020/extension-content-scripts-in-designmode
+This extension is ALPHA SOFTWARE. It DOES NOT WORK with iframe-based rich text editors. Critiques and further comment from the open-source community would be appreciated at this juncture especially about the iframe-based edit mode editors. A fuller description of the problem is here: http://stackoverflow.com/questions/23858020/extension-content-scripts-in-designmode
 
 The textarea is also buggy on stackexchange.
 
