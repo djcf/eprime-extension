@@ -1,0 +1,44 @@
+{
+	"manifest_version": 2,
+
+	"name": "E-Prime",
+	"description": "Highlights words and phrases which are not part of the E' subset of English. See http://en.wikipedia.org/wiki/E-Prime for more information and http://sirenthrall.tumblr.com/post/85602218721/special-shades for why this might be a good idea. Currently the following forms are highlighted: be, am, is, are, was, were, been, being, the archaic forms of to be wast and wert, and the contractions of to be I'm, he's, she's, wasn't, didn't and they're.",
+	"version": "0.3",
+
+	"background": {
+		"scripts": ["button.js"]
+	},
+
+	"content_scripts": [{
+		"matches": ["*://*/*"],
+		"js": [
+			"libs/jquery-1.9.1.js",
+			"libs/jquery.highlight.js",
+			"libs/jquery.caret.js",
+			"libs/jquery-ui-1.10.4.custom.min.js",
+			"libs/jQuery-highlightTextarea/jquery.highlighttextarea.js", 
+			"eprime.js"
+		], "css": ["libs/jQuery-highlightTextarea/jquery.highlighttextarea.css"],
+    	"all_frames": true
+	}, /** Site-specific optimizations (ssos): **/ { 
+		"matches": ["https://www.facebook.com/*"],
+		"js": ["sso/fb.js"]
+	}],
+
+	"permissions": ["tabs", "*://*/*"],
+
+	"icons": { 
+		"16": "icons/eprime-16.png",
+		"19": "icons/eprime-19.png",
+        "48": "icons/eprime-48.png",
+        "128": "icons/eprime-128.png" 
+    },
+
+	"browser_action": {
+		"default_icon": "icons/eprime-19.png",
+		"default_title": "Toggle e E-Prime Textareas"
+	},
+
+	"author": "Daniel Fisher",
+	"homepage_url": "https://github.com/stormsaber/eprime-extension"
+}
