@@ -21,7 +21,7 @@ This extension requests access to all URLs in order to apply itself to any texta
 # Documentation and Further Information
 Users are politely requested submit all problems, bugs and observations via the extension's support page (https://github.com/stormsaber/eprime-extension/issues) in a prompt and timely fashion.
 
-Credits and Attributions
+# Credits and Attributions
 This author is greatful for the work on highlightable textareas carried out by Damien Sorel in his excellent JQuery.HighlightableTextArea library found here: https://github.com/mistic100/jquery-highlighttextarea. More information about the author can be found at their website http://www.strangeplanet.fr/ This author is also greatful to the #jquery IRC user innoCV for their help with caret location in contenteditable HTML elements, without which this extension would not have been possible.
 
 # Licence
